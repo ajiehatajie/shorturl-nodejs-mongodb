@@ -1,0 +1,25 @@
+{
+  "name": "shorturl",
+  "version": "1.0.0",
+  "description": "short url nodejs with mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/babel-node ./src/server.js"
+  },
+  "author": "Ajie Hatajie",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-latest": "^6.24.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "superagent": "^3.5.1"
+  }
+}
