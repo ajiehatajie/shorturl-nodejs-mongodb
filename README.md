@@ -11,7 +11,7 @@ dengan nama url-short lalu insert data baru untuk fungsi counters pertama
 
 > show dbs;
 
-> useurl-short;
+> use url-short;
 
 > db.counters.insert({ _id: 'url_count', seq: 1 })
  
